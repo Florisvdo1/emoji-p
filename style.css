@@ -1,0 +1,286 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  overflow-x: hidden;
+}
+
+/* Header Styling */
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.icon-button {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Huiswerk Section */
+#huiswerk-container {
+  padding: 15px;
+  text-align: center;
+}
+
+.huiswerk-placeholder {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.huiswerk-button {
+  width: 100%;
+  padding: 10px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.huiswerk-button.green {
+  background: #28a745;
+  color: white;
+}
+
+/* Emoji Deck */
+#emoji-deck {
+  background: #ffffff;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+}
+
+.emoji-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.emoji-item {
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: grab;
+}
+
+.emoji-placeholder.highlight {
+  border-color: #007bff;
+  background-color: #dce6f8;
+  transform: scale(1.05);
+}
+
+.emoji-placeholder {
+  border: 2px dashed #6c757d;
+}/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  overflow-x: hidden;
+}
+
+/* Header Styling */
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.icon-button {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Huiswerk Section */
+#huiswerk-container {
+  padding: 15px;
+  text-align: center;
+}
+
+.huiswerk-placeholder {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.huiswerk-button {
+  width: 100%;
+  padding: 10px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.huiswerk-button.green {
+  background: #28a745;
+  color: white;
+}
+
+/* Emoji Deck */
+#emoji-deck {
+  background: #ffffff;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+}
+
+.emoji-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.emoji-item {
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: grab;
+}
+
+.emoji-placeholder.highlight {
+  border-color: #007bff;
+  background-color: #dce6f8;
+  transform: scale(1.05);
+}
+
+.emoji-placeholder {
+  border: 2px dashed #6c757d;
+}/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  overflow-x: hidden;
+}
+
+/* Header Styling */
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.icon-button {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Huiswerk Section */
+#huiswerk-container {
+  padding: 15px;
+  text-align: center;
+}
+
+.huiswerk-placeholder {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.huiswerk-button {
+  width: 100%;
+  padding: 10px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.huiswerk-button.green {
+  background: #28a745;
+  color: white;
+}
+
+/* Emoji Deck */
+#emoji-deck {
+  background: #ffffff;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+}
+
+.emoji-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.emoji-item {
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: grab;
+}
+
+.emoji-placeholder.highlight {
+  border-color: #007bff;
+  background-color: #dce6f8;
+  transform: scale(1.05);
+}
+
+.emoji-placeholder {
+  border: 2px dashed #6c757d;
+}
